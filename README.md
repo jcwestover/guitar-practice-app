@@ -1,47 +1,63 @@
-# Getting Started with Create React App
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Project Title**: Guitar Practice App
 
-## Available Scripts
+**Project Description**: An app to help people practice guitar with tabs and exercises.
 
-In the project directory, you can run:
+**Project Goals**: Allows users to create custom tabs linked to chords and choose between two practice exercises: chord study and one minute changes.
 
-### `npm start`
+## Instructions for Build and Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Steps to build and/or run the software:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository:  
+git clone <repository-url>   
+cd guitar-practice-app
+2. Install the dependencies:  
+npm install
+3. Start the app:  
+npm start
+4. Open your browser and go to http://localhost:3000.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Instructions for using the software:
 
-### `npm run build`
+Chord Study  
+1. Select "Chord Study" from the main menu.
+2. Enter the duration (in minutes) you want to practice.
+3. Select one or more chords from the dropdown menu
+4. Click the "Start Practice" button.
+5. Practice the displayed chords while the timer counts down. The chord tabs will be shown on the screen.
+6. When the timer ends, a sound will play.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+One Minute Changes  
+1. Select "One Minute Changes" from the main menu.
+2. Choose two chords from the dropdown menus.
+3. Click the "Start Changes" button.
+4. A 5-second countdown will begin, allowing you to get ready.
+5. After the countdown, practice switching between the two chords for one minute. The tabs for both chords will be displayed.
+6. When the timer ends, a sound will play.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Development Environment 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
-### `npm run eject`
+* React 18.3.1  
+* TypeScript 4.5.4  
+* HTML5  
+* CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Useful Websites to Learn More
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I found these websites useful in developing this software:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* [W3Schools](https://www.w3schools.com/typescript/index.php)
+* [Codecadamy Learn TypeScipt](https://www.codecademy.com/enrolled/courses/learn-typescript)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Future Work
 
-## Learn More
+The following items I plan to fix, improve, and/or add to this project in the future:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# guitar-practice-app
+* [ ] Add a way to insert custom user created tabs for chords
+* [ ] Improve styling
+* [ ] Fix timer bug
